@@ -1,7 +1,7 @@
 # .NET build artifacts
-DsaAutoTracker/bin/
-DsaAutoTracker/obj/
-DsaAutoTracker/out/
+bin/
+obj/
+out/
 
 # User secrets
 *.user
@@ -10,4 +10,3 @@ DsaAutoTracker/out/
 .vs/
 .vscode/
 *.suo
-*.user
