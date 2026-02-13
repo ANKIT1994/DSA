@@ -1,0 +1,13 @@
+# .NET build artifacts
+DsaAutoTracker/bin/
+DsaAutoTracker/obj/
+DsaAutoTracker/out/
+
+# User secrets
+*.user
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
