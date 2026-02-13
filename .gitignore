@@ -1,3 +1,6 @@
+# Scheduler service (not committed)
+DsaAutoTracker/
+
 # .NET build artifacts
 bin/
 obj/

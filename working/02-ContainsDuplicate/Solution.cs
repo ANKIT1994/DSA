@@ -1,11 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+
+// Contains Duplicate (LC 217)
+// https://leetcode.com/problems/contains-duplicate/
 
 class ContainsDuplicate
 {
 
-    public bool CheckDuplicate(int[] nums)
+    public static bool CheckDuplicate(int[] nums)
     {
         HashSet<int> set = new HashSet<int>();
         for (int i = 0; i < nums.Length; i++)
@@ -25,7 +28,7 @@ class ContainsDuplicate
     static void Main(string[] args)
     {
         Console.WriteLine("========================================");
-        Console.WriteLine("Check Duplicate");
+        Console.WriteLine("Contains Duplicate (LC 217)");
         Console.WriteLine($"  Date: {DateTime.Now:yyyy-MM-dd}");
         Console.WriteLine("========================================\n");
 

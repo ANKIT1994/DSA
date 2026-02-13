@@ -1,11 +1,14 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+
+// Two Sum (LC 1)
+// https://leetcode.com/problems/two-sum/
 
 class TwoSum
 {
     
-    public static int[] TwoSum(int[] nums, int target) {
+    public static int[] TwoSumSolution(int[] nums, int target) {
         Dictionary<int,int> set = new Dictionary<int,int>();
         for (int i = 0 ; i < nums.Length ;i++){
             int value = target - nums[i];
@@ -24,13 +27,13 @@ class TwoSum
     static void Main(string[] args)
     {
         Console.WriteLine("========================================");
-        Console.WriteLine("Two Sum");
+        Console.WriteLine("Two Sum (LC 1)");
         Console.WriteLine($"  Date: {DateTime.Now:yyyy-MM-dd}");
         Console.WriteLine("========================================\n");
 
         int[] nums1 = { 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1 };
         
-        foreach(int a in TwoSum(nums1, 11)){
+        foreach(int a in TwoSumSolution(nums1, 11)){
             Console.WriteLine(a);
         }
         Console.ReadLine();
